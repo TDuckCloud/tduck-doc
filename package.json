@@ -1,0 +1,13 @@
+{
+  "name": "tduck-doc",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "dev": "vuepress dev",
+    "build": "vuepress build"
+  },
+  "devDependencies": {
+    "@vuepress/plugin-back-to-top": "^1.8.0",
+    "vuepress": "^1.8.0"
+  }
+}
