@@ -30,7 +30,7 @@ script:
 after_success:
   - git config user.name "smalljop"
   - git config user.email "smalljop@gmail.com"
-  - git clone https://${CI_USERNAME_CODING}:${CI_TOKEN_CODING}@${CODING_REPO} ./old-docs
+  - git clone https://${CI_USERNAME}:${CI_TOKEN}@${GITHUB_REPO} ./old-docs
   - cp -r ./old-docs/.git ./docs 
   - cd ./docs
   - git add -A
