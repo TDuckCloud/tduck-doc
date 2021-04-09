@@ -20,4 +20,3 @@ Hosted by <a href="https://pages.coding.me" target="_blank" style="font-weight:b
 <br/>
 <a href="http://beian.miit.gov.cn/" target=_blank>湘ICP备18023961号-2</a>
 </p>
-"# tduck-doc" 
