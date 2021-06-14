@@ -33,18 +33,13 @@ module.exports = {
                         link: "/guide/"
                     },
                     {
-                        text: "配置",
-                        link: "/config/"
-                    },
-                    {
                         text: "更新日志",
-                        link:
-                            "https://github.com/baomidou/mybatis-plus/blob/3.0/CHANGELOG.md"
+                        link: "/log/"
                     }
                 ],
                 sidebar: {
                     "/guide/": genGuideSidebar(true),
-                    "/config/": genConfigSidebar(true)
+                    "/log/": genUpdateLogSidebar(true)
                 }
             }
         }
@@ -57,61 +52,40 @@ function genGuideSidebar(isZh) {
         {
             title: isZh ? "快速入门" : "Getting Start",
             collapsable: false,
-            children: ["", "quick-start", "install", "config", "annotation"]
+            children: ["", "local-run", "deploy",]
         },
         {
-            title: isZh ? "核心功能" : "Core",
+            title: isZh ? "项目架构" : "Core",
             collapsable: false,
             children: [
-                "generator",
-                "crud-interface",
-                "wrapper",
-                "page",
-                "sequence",
-                "id-generator"
             ]
         },
         {
-            title: isZh ? "扩展" : "Expand",
+            title: isZh ? "系统配置" : "Core",
             collapsable: false,
             children: [
-                "logic-delete",
-                "enum",
-                "typehandler",
-                "auto-fill-metainfo",
-                "sql-injector",
-                "p6spy",
-                "safety",
-                "dynamic-datasource",
-                "mybatisx-idea-plugin"
-            ]
-        },
-        {
-            title: isZh ? "插件" : "Plugin",
-            collapsable: false,
-            children: [
-                "interceptor",
-                "interceptor-pagination",
-                "interceptor-optimistic-locker",
-                "interceptor-tenant-line",
-                "interceptor-block-attack",
-                "interceptor-dynamic-table-name"
+                "api-config",
+                "storage-config",
+                "front-config",
+                "api-security",
             ]
         },
         {
             title: "FAQ",
             collapsable: false,
-            children: ["faq", "donate"]
+            children: ["faq"]
         }
     ];
 }
 
-function genConfigSidebar(isZh) {
+
+
+function genUpdateLogSidebar(isZh) {
     return [
         {
-            title: isZh ? "配置" : "Config",
+            title: isZh ? "更新日志" : "Config",
             collapsable: false,
-            children: ["", "generator-config"]
+            children: [""]
         }
     ];
 }
