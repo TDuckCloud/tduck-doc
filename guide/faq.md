@@ -1,4 +1,4 @@
-#常见错误
+# 常见问题
 
 ## 1.Q：mvn clean package -DskipTests时报错
 
@@ -22,3 +22,7 @@
 
 ## 3.启动的时候报错：Createing bean with name "wxMpService" defined in Class path .....
 #### 解决方法：检查你的配置文件，是否已经配置了微信登录的参数，具体请查看：[部署文档-后端-微信参数配置](https://gitee.com/TDuckApp/tduck-platform/wikis/%E5%90%8E%E7%AB%AF%E9%A1%B9%E7%9B%AE%E9%85%8D%E7%BD%AE?sort_id=3681757)
+
+## 为什么我的滑动验证码出不来
+
+#### 滑动验证码无需请求第三方平台，无法显示请检查后台接口请求是否正常，多半是nginx配置错误

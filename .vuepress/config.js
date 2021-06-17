@@ -68,6 +68,8 @@ function genGuideSidebar(isZh) {
                 "storage-config",
                 "front-config",
                 "api-security",
+                "close-validate",
+                "close-wx",
             ]
         },
         {
