@@ -1,5 +1,5 @@
 # 简介
-![relationship](/img/banner.png)
+![relationship](/img/banner-logo.png)
 <h2 align="left">Tduck 填鸭 —— 表单收集器</h2>
 
 
