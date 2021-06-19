@@ -1,6 +1,6 @@
 ---
 home: true
-heroImage: ![输入图片说明](https://images.gitee.com/uploads/images/2021/0619/215450_786af92e_1674451.png "logo.png")
+heroImage: /img/logo.svg
 actionText: 快速开始 →
 actionLink: /guide/
 features:
